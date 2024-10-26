@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boot Jo+</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Boot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vibur&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" dir="rtl">
+        <strong>تنوية:</strong> هذه الصفحة للتدرب على البوتستراب لا غير
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <!-- ============================================================================================ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imges/JO-2-Logo-Only-White.png" alt="My Img" style="width: 50px;">
+            <span>
+                چو بلس
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">C#</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">BootStrap</a></li>
+                  <li><a class="dropdown-item" href="#">Php</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- ======================================================================================= -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imges/carousel-1.jpg" class="d-block w-100" alt="..." style="height: calc(100vh - 66px);">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Hi, My Bro</h2>
+              <p>First slide label</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imges/carousel-2.jpg" class="d-block w-100" alt="..." style="height: calc(100vh - 66px);">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>My Name Is : <span class="name">Yousef Saied</span></h2>
+              <p>Second slide label</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imges/carousel-3.jpg" class="d-block w-100" alt="..." style="height: calc(100vh - 66px);">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>I'm 20 Years Old</h2>
+              <p>Third slide label</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imges/carousel-4.jpg" class="d-block w-100" alt="..." style="height: calc(100vh - 66px);">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome TO My Site.</h2>
+              <p>fourth slide label</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ======================================================================================= -->
+      <div class="jumbotron text-light bg-dark text-center">
+        <h1 class="display-4 pt-4 pb-3 name m-auto" style="width: fit-content;">بسم الله الرحمن الرحيم</h1>
+        <p class="lead">Programming Without Language, And Without Code</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg mb-5 mt-3" href="#" role="button">Learn more</a>
+      </div>
+      <!-- ============================================================================================ -->
+      <div class="text-light bg-dark text-center" style="border-top: 1px solid white; overflow: hidden;">
+          <h1 class=" mt-5 pb-3">Programing Language</h1>
+          <p>
+            <a class="btn btn-primary mb-3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Python Programming Language</a>
+            <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Ring Programming Language</button>
+            <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Java Programming Language</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body text-black-50 mb-3">
+                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body text-black-50 mb-3">
+                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- ============================================================================================ -->
+      <div class="box bg-dark pt-5 pb-5" style="border-top: 1px solid white;">
+        <h1 class="text-light text-center">Some Boxes <span class="btn btn-primary" style="font-size: x-large;">🤷‍♂️</span></h1>
+        <div class=" d-flex justify-content-around pt-5" style=" flex-wrap: wrap; gap: 10px;">
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/view-three-dimensional-cartoon-animated-bird.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">character one :</h5>
+              <p class="card-text text-white-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary d-block m-auto" style="width: fit-content;">See More</a>
+            </div>
+          </div>
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/view-cartoon-animated-3d-penguin-beach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">character two :</h5>
+              <p class="card-text text-white-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary d-block m-auto" style="width: fit-content;">See More</a>
+            </div>
+          </div>
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/view-3d-school-girl-nature.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">character three :</h5>
+              <p class="card-text text-white-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary d-block m-auto" style="width: fit-content;">See More</a>
+            </div>
+          </div>
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/3d-rendering-basketball-player.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">character four :</h5>
+              <p class="card-text text-white-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary d-block m-auto" style="width: fit-content;">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================================================================ -->
+      <div class="friends bg-dark pt-5 pb-5" style="border-top: 1px solid white;">
+        <h1 class="text-light text-center">About My Best Friends <span class="btn btn-primary" style="font-size: x-large;">😊</span></h1>
+        <div class=" d-flex justify-content-evenly pt-5 text-center row">
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up p-0 mb-3" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/Fady.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h2>فادى الأمير</h2>
+              <p class="card-text text-white-50">Full-Stack Developer</p>
+              <span style="font-size: x-large;">❤</span>
+            </div>
+          </div>
+          <div class="card bg-dark text-light col-lg-3 col-md-6 up p-0 mb-3" style="width: 18rem; border: 1px solid white;">
+            <img src="imges/Mina.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h2>مينا أشرف</h2>
+              <p class="card-text text-white-50">Accountant</p>
+              <span style="font-size: x-large;">❤</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================================================================ -->
+      <div class="footer pt-5 pb-5"  style="border-top: 1px solid white;">
+        <h1 class="text-light text-center">About ME <span class="btn btn-primary" style="font-size: x-large;">✔</span></h1>
+        <div class="myinfo d-flex justify-content-evenly text-center pt-5 pb-5 row">
+            <div class="card bg-dark text-light col-lg-3 col-md-6 up me p-0 mb-3" style="width: 18rem; border: 1px solid white ; box-shadow: 0px 0px 10px white; margin-bottom: 50px !important;">
+              <img src="imges/Yousef.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <a href="#">
+                  <img src="imges/JO-2-Logo-Only-White.png" alt="" class="img-fluid" style="width: 70px;">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 align-items-center" style="margin: auto 0px;">
+              <h1 class="name">يوسف سعيد</h1>
+              <h2 class="name">چو بلس</h2>
+              <h4>Full-Stack Developer</h4>
+              <p>AL-Qalyubia ==>> Abo-Zabal</p>
+            </div>
+        </div>
+      </div>
+      <!-- ============================================================================================ -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

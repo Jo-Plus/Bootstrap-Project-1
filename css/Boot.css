@@ -1,0 +1,53 @@
+:root {
+  --transition: 0.3s;
+  --blue-color: blue;
+}
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+::selection {
+  background-color: white;
+  color: black;
+}
+.name:hover {
+  color: var(--blue-color);
+  cursor: pointer;
+}
+.up {
+  transition: var(--transition);
+}
+.up:hover {
+  transform: translateY(-10px);
+}
+/* ============================================================================= */
+.navbar {
+  background-color: #232930eb !important;
+}
+.navbar .navbar-brand {
+  transition: var(--transition);
+  border-right: 1px solid white;
+  padding: 0px 5px;
+}
+.navbar .navbar-brand:hover {
+  background-color: var(--blue-color);
+  border-radius: 6px;
+}
+/* ============================================================================= */
+.carousel h2 {
+  color: yellow;
+}
+.carousel-inner .carousel-caption {
+  background: rgba(200, 200, 200, 0.3);
+  border-radius: 7px;
+}
+/* ============================================================================= */
+.myinfo .card:hover img {
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px white;
+}
+/* ============================================================================= */
+.footer {
+  background-image: url(../imges/carousel-3.jpg);
+  color: white;
+  width: 100%;
+}
